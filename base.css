@@ -1,0 +1,77 @@
+:root{
+    --white-color: #FFF;
+    --dark-green-color: #090b28;
+    --dark-violet-color: #4b0aa1;
+    --primary-color: #fd7f17;
+    --orange-color: rgb(248, 145, 60);
+    --black-color: #000;
+    --text-color: rgb(88 87 87 / 60%);
+    --border-color: #bdbdbd;
+}
+html{
+    font-size: 62.5%;
+    /* line-height tương ứng 16px */
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+/* Grid */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.grid__column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+.grid__column-3{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+.grid__column-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3334%;
+}
+.grid__column-6{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+.btn{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
